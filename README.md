@@ -1,2 +1,2 @@
 # Pantry-App 
-This the prototype of the Pamtry Application.
+This the prototype of the Pantry Application.
