@@ -70,7 +70,7 @@ a {
   display: block;
   height: 2px;
   position: relative;
-  transition: background .2s ease-out;
+  transition:0.2s ease-out;
   width: 18px;
 }
 
@@ -125,8 +125,8 @@ a {
 }
 
 .image--cover {
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   margin: 20px;
   object-fit: cover;
@@ -137,9 +137,31 @@ a {
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 38px;
   text-align: center;
+  text-decoration: underline;
 }
+
+
+//Center Content
+.container {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+.cards {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-top: 15px;
+	padding: 1.5%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
 /* 48em = 768px */
 
 @media (min-width: 48em) {
@@ -156,5 +178,67 @@ h2 {
   }
   .header .menu-icon {
     display: none;
+  }
+}
+
+.cards-list {
+  z-index: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 30px auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+  box-shadow: 2px 2px 15px 7px rgba(0,0,0,0.25), -2px -2px 15px 7px rgba(0,0,0,0.22);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.card .card_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+}
+
+.card .card_image img {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+.card .card_title {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -80px;
+  height: 40px;
+}
+
+.card:hover {
+  transform: scale(0.95, 0.95);
+  box-shadow: 1px 1px 15px 7px rgba(0,0,0,0.25),
+    -3px -3px 30px 15px rgba(0,0,0,0.22);
+}
+
+.title-white {
+  color:white;
+}
+
+.title-black {
+  color: black;
+}
+
+@media all and (max-width: 500px) {
+  .card-list {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
   }
 }
