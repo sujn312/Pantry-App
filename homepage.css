@@ -162,6 +162,17 @@ h2 {
 	box-sizing: border-box;
 }
 
+button{
+  font-size: 30px;
+  background-color: inherit;
+  color: white;
+  border: none;
+  margin-bottom: 0px;
+  font-weight: bold;
+  padding: 25px;
+}
+
+}
 /* 48em = 768px */
 
 @media (min-width: 48em) {
