@@ -1,26 +1,31 @@
 body {
      box-sizing:border-box;
+     color: inherit;
 }
-#header{
-  background:linear-gradient(-90deg, #81cad6, #90ff99);
+#list{
+  background:linear-gradient(-90deg, #08ff00, #00b100);
   border-bottom: 1px gray solid;
   padding: 20px 20px 30px;
   margin:auto;
   text-align:center;
 }
-  h2 {
-  text-align:center;
-    color:#fff;
-    margin-bottom:25px;
+h1{
+  color: black;
 }
+h2 {
+  text-align:center;
+  color:black;
+  margin-bottom:25px;
+}
+
 #inputText {
- border-radius:4px;
-  border: solid gray 2px;
-  padding:5px;
+  border-radius:8px;
+  border: solid skyblue 2px;
+  padding:8px;
   }
  button {
     display:inline-block;
-     background-color: gray;
+    background-color: grey;
     border: solid gray 2px;
     border-radius:4px;
     color:white;
@@ -34,9 +39,11 @@ body {
   padding:0;
 }
   li {
-     text-decoration:none;
-      padding: 10px;
+    text-decoration:none;
+    padding: 15px;
     font-weight:bold;
+    text-align: left;
+    font-size: 16px;
   }
 
   li:nth-child(odd){
@@ -47,8 +54,8 @@ body {
   }
     .check {
   text-decoration: line-through;
-      background-color: black !important;
-      color:white;
+      background-color: #12edff !important;
+      color:yellow;
 }
 
 span.close {
