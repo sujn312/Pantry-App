@@ -2,6 +2,8 @@ body {
      box-sizing:border-box;
      color: inherit;
 }
+
+
 #list{
   background:linear-gradient(-90deg, #08ff00, #00b100);
   border-bottom: 1px gray solid;
