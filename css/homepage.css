@@ -142,7 +142,7 @@ h2 {
 }
 
 
-//Center Content
+/* //Center Content */
 .container {
 	max-width: 1100px;
 	margin: 0 auto;
@@ -169,6 +169,32 @@ button{
   margin-bottom: 0px;
   font-weight: bold;
   padding: 25px;
+}
+
+/* footer */
+.footer{
+  background-color: #D3D3D3;
+  padding-top: 10px;
+  height: 60px;
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+  line-height: 50px;
+  color: black;
+  text-align: center;
+  width: 100%;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 50px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
 }
 
 /* 48em = 768px */
