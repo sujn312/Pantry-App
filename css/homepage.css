@@ -273,6 +273,10 @@ h2 {
 }
 
 @media (max-width: 1160px){
+  .icon{
+    font-size: 2rem;
+    padding: 0.5rem;
+  }
   .text h3{
     text-transform: uppercase;
     letter-spacing: 4px;
