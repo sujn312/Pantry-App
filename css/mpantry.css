@@ -69,7 +69,7 @@ span.close {
   padding-right: 20px;
 }
 
-@media (min-width: 48em){
+/* @media (min-width: 48em){
   .goback{
     padding: 10px;
     font-size: 10px;
@@ -102,4 +102,4 @@ span.close {
   span.close{
     padding-right: 20px;
   }
-}
+} */
