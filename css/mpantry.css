@@ -1,11 +1,13 @@
 body {
      box-sizing:border-box;
-     color: inherit;
+     color: black;
+     background-color: #c0ffb3;
+     background-size: cover;
 }
 
 
 #list1{
-  background:linear-gradient(-90deg, #08ff00, #00b100);
+  background:linear-gradient(-90deg, #394a6d, #3c9d9b);
   border-bottom: 1px gray solid;
   padding: 20px 20px 30px;
   margin:auto;
@@ -28,8 +30,8 @@ h2 {
   }
  button {
     display:inline-block;
-    background-color: #797d79;
-    border: solid gray 2px;
+    background-color: #DFDFDF;
+    border: solid black 2px;
     border-radius:4px;
     color:black;
     font-weight: bold;

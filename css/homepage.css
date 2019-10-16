@@ -214,6 +214,9 @@ a {
   padding: .5rem;
 }
 
+.list2{
+  border: 2px solid black;
+}
 /* footer */
 .footer{
   background-color: #D3D3D3;
