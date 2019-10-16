@@ -4,7 +4,7 @@ body {
 }
 
 
-#list{
+#list1{
   background:linear-gradient(-90deg, #08ff00, #00b100);
   border-bottom: 1px gray solid;
   padding: 20px 20px 30px;
@@ -17,8 +17,9 @@ h1{
 h2 {
   text-align:center;
   color:black;
-  margin-bottom:25px;
+  margin-bottom:10px;
 }
+
 
 #inputText {
   border-radius:8px;
@@ -65,5 +66,40 @@ h2 {
 span.close {
   position: absolute;
   right: 0;
-  padding-right: 10px;
+  padding-right: 20px;
+}
+
+@media (min-width: 48em){
+  .goback{
+    padding: 10px;
+    font-size: 10px;
+  }
+  .btn1 {
+    font-size: 3rem;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  #list1{
+    font-size: 3rem;
+  }
+
+  #inputText{
+    height: 100px;
+    width: 500px;
+    font-size:55px;
+  }
+
+  .btn2{
+    height: 100px;
+    width: 150px;
+    font-size: 50px;
+    padding: 20px;
+  }
+
+  li{
+    font-size: 42px;
+  }
+  span.close{
+    padding-right: 20px;
+  }
 }
