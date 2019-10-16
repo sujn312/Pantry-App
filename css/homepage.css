@@ -1,7 +1,22 @@
+*{
+  box-sizing: border-box;
+}
+
+html{
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
+  padding: 0;
   font-family: Helvetica, sans-serif;
-  background-color: #f4f4f4;
+  background: rgba(0,0,0,0.5);
+  background-size: cover;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 a {
@@ -119,20 +134,17 @@ a {
 .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
   top: 0;
 }
-.wrapper {
-  padding: 100px;
 
-}
 
 .image--cover {
-  width: 150px;
-  height: 150px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
   object-fit: cover;
   object-position: center;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+
+  padding: 28px 20px;
 }
 
 h2 {
@@ -142,33 +154,77 @@ h2 {
 }
 
 
-/* //Center Content */
-.container {
-	max-width: 1100px;
-	margin: 0 auto;
-}
-.cards {
-	display: -webkit-flex;
-	display: flex;
-	-webkit-justify-content: center;
-	justify-content: center;
-	-webkit-flex-wrap: wrap;
-	flex-wrap: wrap;
-	margin-top: 15px;
-	padding: 0.5%;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+/* Main Section */
+
+.titles{
+  color: white;
+  text-align: center;
+  width: 50vw;
+  margin: 100px auto;
 }
 
-button{
-  font-size: 30px;
-  background-color: inherit;
-  color: white;
-  border: none;
-  margin-bottom: 0px;
-  font-weight: bold;
-  padding: 25px;
+.titles h1{
+  font-family: Helvetica, sans-serif;
+  font-size: 5rem;
+  margin-bottom: 0;
+  text-shadow: 1px 1px 0 black;
+
+}
+
+.titles p{
+  letter-spacing: 3px;
+  text-shadow: 1px 1px 0 black;
+}
+
+/* bottom section */
+
+.container-boxes{
+  margin: 0 auto;
+  padding: 0;
+  display:flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  max-width: 80vw;
+}
+
+.box{
+  background: rgba(255,255,255,.5);
+  margin: 1rem;
+  padding: .5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 350px;
+  max-height: 180px;
+  min-height: 180px;
+  transition: all 250ms ease-out;
+}
+
+.box:hover{
+  background: rgba(255,255,255,.7);
+  transform: translateY(-20%);
+}
+
+.box a{
+  text-decoration: none;
+  color: black;
+}
+
+
+.text h3{
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-bottom: 0;
+}
+
+.text p{
+  margin-top: 1rem;
+  line-height: 1.5rem;
+  text-align: left;
+}
+
+.text{
+  padding: .5rem;
 }
 
 /* footer */
@@ -216,65 +272,41 @@ button{
   }
 }
 
-.cards-list {
-  z-index: 0;
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
+@media (max-width: 1160px){
+  .text h3{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 0;
+    font-size: 1rem;
+  }
 
-.card {
-  margin: 30px auto;
-  width: 300px;
-  height: 300px;
-  border-radius: 40px;
-  box-shadow: 2px 2px 15px 7px rgba(0,0,0,0.25), -2px -2px 15px 7px rgba(0,0,0,0.22);
-  cursor: pointer;
-  transition: 0.4s;
-}
-
-.card .card_image {
-  width: inherit;
-  height: inherit;
-  border-radius: 40px;
-  object-fit: cover;
-}
-
-.card .card_image img {
-  width: inherit;
-  height: inherit;
-  border-radius: 40px;
-  object-fit: cover;
-}
-
-.card .card_title {
-  text-align: center;
-  border-radius: 0px 0px 40px 40px;
-  font-family: sans-serif;
-  font-weight: bold;
-  font-size: 30px;
-  margin-top: -80px;
-  height: 40px;
-}
-
-.card:hover {
-  transform: scale(0.95, 0.95);
-  box-shadow: 1px 1px 15px 7px rgba(0,0,0,0.25),
-    -3px -3px 30px 15px rgba(0,0,0,0.22);
-}
-
-.title-white {
-  color:white;
-}
-
-.title-black {
+  .text p{
+    margin-top: 1rem;
+    line-height: 1.5rem;
+    text-align: left;
+    font-size: .8rem;
+  }
+  nav li a:hover{
+  background: none;
   color: black;
+  }
 }
 
-@media all and (max-width: 500px) {
-  .card-list {
-    /* On small screens, we are no longer using row direction but column */
+@media (max-width: 850px){
+  body{
+    height: 100%;
+  }
+  .container-boxes{
     flex-direction: column;
+  }
+  .box{
+    width: 400px;
+  }
+  .box:hover{
+    background: rgba(255,255,255,.7);
+    transform: none;
+  }
+  .titles h1{
+  font-size: 3rem;
   }
 }
