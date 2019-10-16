@@ -10,7 +10,7 @@ html{
 body {
   margin: 0;
   padding: 0;
-  font-family: Helvetica, sans-serif;
+  font-family: candara, sans-serif;
   background: rgba(0,0,0,0.5);
   background-size: cover;
   color: black;
@@ -145,7 +145,7 @@ a {
 }
 
 .titles h1{
-  font-family: Helvetica, sans-serif;
+  font-family: candara, sans-serif;
   font-size: 5rem;
   margin-bottom: 0;
   text-shadow: 1px 1px 0 black;
@@ -153,8 +153,8 @@ a {
 }
 
 .titles p{
-  letter-spacing: 3px;
-  text-shadow: 1px 1px 0 black;
+  letter-spacing: none;
+  font-size: 1.5rem;
 }
 
 /* bottom section */
@@ -198,14 +198,16 @@ a {
 
 .text h3{
   text-transform: uppercase;
-  letter-spacing: 4px;
+  letter-spacing: 0;
   margin-bottom: 0;
+  font-size: 23px;
 }
 
 .text p{
   margin-top: 1rem;
   line-height: 1.5rem;
   text-align: left;
+  font-size: 16px;
 }
 
 .text{
@@ -224,6 +226,7 @@ a {
   color: black;
   text-align: center;
   width: 100%;
+  font-size: 16px;
 }
 
 .fa {
@@ -260,21 +263,21 @@ a {
 
 @media (max-width: 768px){
   .icon{
-    font-size: 2rem;
+    font-size: 4rem;
     padding: 0.5rem;
   }
   .text h3{
     text-transform: uppercase;
-    letter-spacing: 4px;
     margin-bottom: 0;
     font-size: 1rem;
+    font-size: 23px;
   }
 
   .text p{
     margin-top: 1rem;
     line-height: 1.5rem;
     text-align: left;
-    font-size: .8rem;
+    font-size: 18px;
   }
   nav li a:hover{
   background: none;
