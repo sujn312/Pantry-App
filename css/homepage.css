@@ -306,7 +306,7 @@ h2 {
   }
   .container-boxes{
     flex-direction: column;
-    margin: 0 auto;
+    display: grid;
   }
   .box{
     width: 400px;
