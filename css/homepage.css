@@ -306,7 +306,7 @@ h2 {
   }
   .container-boxes{
     flex-direction: column;
-    align-items: center;
+    margin: 0 auto;
   }
   .box{
     width: 400px;
