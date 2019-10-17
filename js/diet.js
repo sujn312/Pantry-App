@@ -1,4 +1,9 @@
+//  This is not my own work. I understand the logic behind
+// these codes but i don don't have this level of skill sets yet.
+// I want to aknowledge the programmer who wrote these codes.
+
 //My Methods
+
 var myObj= {
     //Select TextArea Func
     textSelect: function(){

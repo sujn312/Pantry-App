@@ -4,7 +4,7 @@ font-family: 'Open Sans', sans-serif;
 
 body {
   margin: 0;
-  background: #fff6da;
+  background: #003049;
   color:black;
 }
 
@@ -68,7 +68,11 @@ myShadow,  .btn,{
   position: relative;
 }
 
-@media only screen and (max-width: 500px){
+h1{
+  color: white;
+}
+
+/* @media only screen and (max-width: 500px){
 .row .col.s6 {
   width: 50%;
   margin-left: auto;
@@ -110,7 +114,6 @@ myShadow,  .btn,{
     right: auto;
   }
 
-*/
   .row .col.m10 {
     width: 83.3333333333%;
     margin-left: auto;
@@ -297,4 +300,4 @@ textarea{
 
 .red:hover {
 	background-color: #ef5350;
-}
+} */
