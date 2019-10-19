@@ -11,7 +11,7 @@ body {
 /*  back button*/
 button {
    display:inline-block;
-   background-color: #4fc3f7;
+   background-color: #dcdcdc;
    border: solid black 1px;
    border-radius:4px;
    color:#000;
@@ -129,6 +129,9 @@ textarea {
   background-color: transparent;
 }
 
+.date{
+  text-align: left;
+}
 
 /*BUTTON*/
 .btn{
@@ -145,8 +148,8 @@ textarea {
 
 .btn {
   text-decoration: none;
-  color: black;
-  background-color: #4fc3f7;
+  color: #232323;
+  background-color: #dcdcdc;
   text-align: center;
   letter-spacing: none;
   transition: .2s ease-out;
