@@ -1,24 +1,24 @@
 body {
      box-sizing:border-box;
      color: black;
-     background-color: #fff6da;
+     background-color: #f4f5f7;
      background-size: cover;
 }
 
 
 #list1{
-  background:linear-gradient(-90deg, #394a6d, #3c9d9b);
+  background-color:#337b7b ;
   border-bottom: 1px gray solid;
   padding: 20px 20px 30px;
   margin:auto;
   text-align:center;
 }
 h1{
-  color: white;
+  color: #f1f1f1;
 }
 h2 {
   text-align:center;
-  color: white;
+  color: #f1f1f1;
   margin-bottom:10px;
 }
 
@@ -30,19 +30,22 @@ h3{
 #inputText {
   border-radius:8px;
   padding:8px;
-  background-color:#f2e2cb;
+  background-color:#f4f5f7;
   }
  button {
     display:inline-block;
-    background-color: #DFDFDF;
-    border: solid black 2px;
+    background-color: #dcdcdc;
+    border: 1px solid black;
     border-radius:4px;
-    color:black;
+    color:#000;
     font-weight: bold;
     padding:5px;
     font-size: 16px;
   }
-
+button:hover{
+  background-color: #1b6114;
+  color: #f1f1f1;
+}
 .btn1{
   margin-bottom: 10px;
 }

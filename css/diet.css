@@ -109,9 +109,6 @@ textarea{
     font-family: sans-serif;
 }
 
-
-
-
 input:not([type]) + label:after,
 input[type=text] + label:after,
 textarea + label:after {
@@ -183,4 +180,11 @@ textarea{
 
 .red:hover {
 	background-color: #ef5350;
+}
+
+@media (max-width: 48em){
+  .demo{
+    display: inline-grid;
+    text-align: center;
+  }
 }
