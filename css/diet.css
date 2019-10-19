@@ -1,23 +1,28 @@
 html {
-font-family: 'Open Sans', sans-serif;
+font-family: "Segoe UI";
 }
 
 body {
   margin: 0;
-  background: #003049;
-  color:white;
+  background: #f4f5f7;
+  color:#232323;
 }
 
 /*  back button*/
 button {
    display:inline-block;
-   background-color: #DFDFDF;
-   border: solid black 2px;
+   background-color: #4fc3f7;
+   border: solid black 1px;
    border-radius:4px;
-   color:black;
+   color:#000;
    font-weight: bold;
    padding:5px;
    font-size: 16px;
+ }
+
+ button:hover{
+   background-color: #81d4fa;
+   color: black;
  }
 
 .btn1{
@@ -36,12 +41,11 @@ myShadow,  .btn,{
 }
 .myShadow-2,.btn:hover {
   box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  color: black;
   font-weight: bold;
 }
 
 .container {
-  width: 80vwh;
+  width: 80vh;
 	margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -56,7 +60,7 @@ myShadow,  .btn,{
 
 .row:after {
   content: "";
-  display: table;
+  display: flex;
   clear: both;
 }
 
@@ -67,7 +71,7 @@ myShadow,  .btn,{
 }
 
 h1{
-  color: white;
+  color: #232323;
 }
 
 p{
@@ -77,10 +81,8 @@ p{
 
 /*FORM CONTROL*/
 ::-webkit-input-placeholder {
-  color: #fff;
+  color: #232323;
 }
-
-
 
 input:not([type]),
 input[type=text],
@@ -106,7 +108,7 @@ textarea{
     padding: 1rem 0;
     resize: none;
     min-height: 3rem;
-    font-family: sans-serif;
+    font-family: "segoe UI";
 }
 
 input:not([type]) + label:after,
@@ -118,6 +120,7 @@ textarea + label:after {
   border-top: 65px;
   opacity: 0;
   transition: .2s opacity ease-out, .2s color ease-out;
+  color: #232323;
 }
 
 textarea {
@@ -159,19 +162,20 @@ textarea {
     display:none;
 }
 input[type=text]{
-	color:white;
+	color:#232323;
 }
 
 input[type="date"]{
 	border: none;
   background: none;
   border-bottom: 1px solid  #bbdefb;
+  padding-top: 13.5px;
   padding-bottom: 13.5px;
-	color:	white;
+	color: #232323;
 }
 
 textarea{
-	color:white;
+	color: #232323;;
 }
 
 .red {
