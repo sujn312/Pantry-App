@@ -10,8 +10,8 @@ html{
 body {
   margin: 0;
   padding: 0;
-  font-family: segoe UI;
-  background: rgba(0,0,0,0.5);
+  font-family: "segoe UI";
+  background-color: #f4f5f7;
   background-size: cover;
   color: black;
   display: flex;
@@ -66,7 +66,7 @@ a {
 .header .menu {
   clear: both;
   max-height: 0;
-  transition: max-height .2s ease-out;
+  transition:0.2s ease-out;
 }
 
 /* menu icon */
@@ -138,14 +138,14 @@ a {
 /* Main Section */
 
 .titles{
-  color: white;
+  color: #232323;
   text-align: center;
   width: 50vw;
   margin: 100px auto;
 }
 
 .titles h1{
-  font-family: candara, sans-serif;
+  font-family:"segoe UI";
   font-size: 5rem;
   margin-bottom: 0;
   text-shadow: 1px 1px 0 black;
@@ -169,7 +169,7 @@ a {
 }
 
 .box{
-  background: rgba(255,255,255,.5);
+  background: #dcdcdc;
   margin: 1rem;
   padding: .5rem;
   display: flex;
@@ -182,7 +182,7 @@ a {
 }
 
 .box:hover{
-  background: rgba(255,255,255,.7);
+  background: #97cd92;
   transform: translateY(-20%);
 }
 
